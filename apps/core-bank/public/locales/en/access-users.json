@@ -1,0 +1,38 @@
+{
+  "title": "Users",
+  "subtitle": "View Users",
+  "empty": "You Do Not Have Users Yet.",
+  "buttons": {
+    "addUser": "Add User"
+  },
+  "usersTable": {
+    "filters": {
+      "byUnit": "By Unit",
+      "byJobType": "By Job Type"
+    },
+    "columns": {
+      "titles": {
+        "userName": "User Name",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "title": "Title",
+        "email": "E-mail",
+        "status": "Status",
+        "lastLoginDate": "Last Login"
+      }
+    },
+    "userStatuses": {
+      "new": "New",
+      "pending": "Pending",
+      "active": "Active",
+      "inactive": "Inactive",
+      "locked": "Locked",
+      "blocked": "Blocked"
+    },
+    "rowActions": {
+      "approve": "Approve",
+      "inactivate": "Inactivate",
+      "resetPassword": "Reset Password"
+    }
+  }
+}

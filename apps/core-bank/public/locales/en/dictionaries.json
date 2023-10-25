@@ -1,0 +1,30 @@
+{
+  "title": "Dictionaries",
+  "buttons": {
+    "addNewDictionary": "Add New Dictionary"
+  },
+  "tabs": {
+    "systemDictionaries": {
+      "label": "System",
+      "title": "System Dictionaries"
+    },
+    "userDictionaries": {
+      "label": "User",
+      "title": "User Dictionaries",
+      "emptyDescription": "You Do Not Have User Dictionaries Yet."
+    }
+  },
+  "dictionariesTable": {
+    "columns": {
+      "titles": {
+        "name": "Name",
+        "status": "Status",
+        "code": "Code"
+      }
+    },
+    "dictionaryStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  }
+}

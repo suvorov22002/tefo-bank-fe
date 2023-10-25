@@ -1,0 +1,24 @@
+{
+  "name": "auth",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "jest-config": "*",
+    "react": "^18.2.0",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "next-auth": "4.22.1",
+    "ui": "*"
+  }
+}

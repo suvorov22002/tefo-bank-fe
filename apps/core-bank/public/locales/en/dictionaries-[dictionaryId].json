@@ -1,0 +1,22 @@
+{
+  "title": "Dictionaries: {{name}}",
+  "buttons": {
+    "addNewDictionaryValue": "Add New Value"
+  },
+  "dictionaryValuesTable": {
+    "columns": {
+      "titles": {
+        "name": "Name",
+        "code": "Code",
+        "status": "Status"
+      }
+    },
+    "dictionaryValueStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "empty": {
+    "description": "You Do Not Have Values in User Dictionaries Yet."
+  }
+}

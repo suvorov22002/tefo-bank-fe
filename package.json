@@ -1,0 +1,48 @@
+{
+  "name": "tefo-bank-fe",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,mdx}\"",
+    "prepare": "husky install",
+    "commit": "cz",
+    "storybook:dev": "turbo run storybook:dev",
+    "storybook:build": "turbo run storybook:build",
+    "test": "turbo run test -- --detectOpenHandles",
+    "test:watch": "turbo run test:watch"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/cz-commitlint": "^17.4.4",
+    "commitizen": "^4.3.0",
+    "eslint-config-custom": "*",
+    "husky": "^8.0.3",
+    "inquirer": "8",
+    "lint-staged": "^14.0.1",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
+  "resolutions": {
+    "webpack": "^5"
+  },
+  "packageManager": "yarn@1.22.19"
+}

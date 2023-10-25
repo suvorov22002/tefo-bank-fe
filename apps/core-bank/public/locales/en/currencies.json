@@ -1,0 +1,33 @@
+{
+  "title": "Currencies",
+  "subtitle": "View Currencies",
+  "buttons": {
+    "addCurrency": "Add New Currency"
+  },
+  "empty": {
+    "noCurrencies": "You Do Not Have Currencies Yet."
+  },
+  "currenciesTable": {
+    "columns": {
+      "titles": {
+        "name": "Name",
+        "alphabeticCode": "Alphabetic Code",
+        "numericCode": "Numeric Code",
+        "symbol": "Symbol",
+        "numberOfDecimals": "Number Of Decimals",
+        "status": "Status",
+        "usageInBank": "Usage In Bank"
+      }
+    },
+    "currencyStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "currencyUsageInBank": {
+      "cash": "Cash",
+      "nonCash": "Non-Cash",
+      "reference": "Reference",
+      "legalTender": "Legal Tender"
+    }
+  }
+}

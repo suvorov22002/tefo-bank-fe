@@ -1,0 +1,23 @@
+.customers {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  height: 100%;
+
+  &__header {
+    box-shadow: inset 0px -1px 0px #f0f0f0;
+  }
+
+  &__contentCard {
+    margin: 24px;
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}

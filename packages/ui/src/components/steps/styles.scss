@@ -1,0 +1,5 @@
+.steps {
+  &.ant-steps.ant-steps-navigation .ant-steps-item.ant-steps-item-active:before {
+    display: none;
+  }
+}

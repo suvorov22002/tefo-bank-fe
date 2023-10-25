@@ -1,0 +1,12 @@
+.phoneNumberInput {
+  display: flex;
+  gap: 8px;
+
+  &__codeInput {
+    flex-basis: 17%;
+  }
+
+  &__numberInput {
+    flex-basis: 83%;
+  }
+}

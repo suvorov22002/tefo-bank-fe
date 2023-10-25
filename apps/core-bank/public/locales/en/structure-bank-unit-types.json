@@ -1,0 +1,22 @@
+{
+  "title": "Structure: Unit Types",
+  "buttons": {
+    "addNewUnitType": "Add New Unit Type"
+  },
+  "empty": {
+    "noUnitTypes": "You Do Not Have Unit Types Yet."
+  },
+  "bankUnitTypesTable": {
+    "columns": {
+      "titles": {
+        "name": "Name",
+        "isVirtual": "Is Virtual",
+        "status": "Status"
+      }
+    },
+    "unitTypeStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  }
+}

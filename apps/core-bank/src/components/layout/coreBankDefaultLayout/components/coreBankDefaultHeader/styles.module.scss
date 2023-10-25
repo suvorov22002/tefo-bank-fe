@@ -1,0 +1,40 @@
+.coreBankDefaultHeader {
+  padding: 12px 24px;
+  box-shadow: inset 0px -1px 0px #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+
+  :global .ant-form-item {
+    margin-bottom: unset;
+  }
+
+  &__leftSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  &__rightSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__selectSection {
+    display: flex;
+    gap: 4px;
+  }
+
+  &__logo {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+  }
+
+  &__userInfoSection {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}

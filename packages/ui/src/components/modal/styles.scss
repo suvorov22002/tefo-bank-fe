@@ -1,0 +1,21 @@
+.modal {
+  .ant-modal-content {
+    padding: unset;
+  }
+
+  .ant-modal-header {
+    padding: 16px 24px;
+    margin: unset;
+    box-shadow: inset 0px -1px 0px #F0F0F0;
+  }
+
+  .ant-modal-body {
+    padding: 48px 24px;
+  }
+
+  .ant-modal-footer {
+    padding: 16px 24px;
+    margin: unset;
+    box-shadow: inset 0px 1px 0px #F0F0F0;
+  }
+}

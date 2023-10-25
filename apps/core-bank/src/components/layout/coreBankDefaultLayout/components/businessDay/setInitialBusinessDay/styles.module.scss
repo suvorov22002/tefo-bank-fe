@@ -1,0 +1,15 @@
+.setInitialBusinessDay {
+  &__calendar {
+    :global
+      .ant-picker-body
+      .ant-picker-cell-disabled.ant-picker-cell-selected
+      .ant-picker-calendar-date {
+      background: unset;
+      color: unset;
+    }
+
+    :global .ant-picker-calendar-mode-switch {
+      display: none;
+    }
+  }
+}

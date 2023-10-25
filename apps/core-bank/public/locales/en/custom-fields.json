@@ -1,0 +1,61 @@
+{
+  "title": "Custom Fields",
+  "subtitle": "View Custom Fields",
+  "buttons": {
+    "newCustomField": "Add Custom Field"
+  },
+  "empty": "You Do Not Have Custom Fields Yet.",
+  "customFieldsTable": {
+    "emptyNoSelectedEntity": "No Data, Select Entity",
+    "emptyNoAddedCustomFields": "No Data, Add Custom Field",
+    "columns": {
+      "titles": {
+        "code": "Code",
+        "name": "Name",
+        "dataType": "Data Type",
+        "group": "Group",
+        "independent": "Independent",
+        "index": "Index",
+        "status": "Status",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "approvedAt": "Approved At",
+        "updatedBy": "Updated By",
+        "approvedBy": "Approved By"
+      }
+    },
+    "customFieldStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "dataTypes": {
+      "boolean": "Boolean",
+      "integer": "Integer",
+      "integerPercent": "Integer Percent",
+      "decimal": "Decimal",
+      "decimalPercent": "Decimal Percent",
+      "date": "Date",
+      "dateTime": "Date Time",
+      "string": "String",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "list": "List",
+      "dictionary": "Dictionary",
+      "reference": "Reference"
+    }
+  },
+  "entities": {
+    "account": "Account",
+    "bank": "Bank",
+    "client": "Client",
+    "contract": "Contract",
+    "product": "Product",
+    "transaction": "Transaction",
+    "unit": "Unit",
+    "user": "User",
+    "country": "Country"
+  },
+  "entitySelect": {
+    "placeholder": "Select Entity"
+  }
+}

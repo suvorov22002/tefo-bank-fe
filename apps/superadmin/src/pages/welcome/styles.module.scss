@@ -1,0 +1,20 @@
+.welcomePage {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+
+  .empty {
+    :global .ant-empty-image {
+      height: 60px;
+    }
+
+    :global .ant-empty-description {
+      max-width: 300px;
+      text-align: left;
+      white-space: break-spaces;
+    }
+  }
+}

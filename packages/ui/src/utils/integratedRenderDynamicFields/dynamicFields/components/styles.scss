@@ -1,0 +1,15 @@
+.dynamicFields {
+  &__addedCustomFieldWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    :first-child {
+      flex-basis: 100%;
+    }
+  }
+
+  &__addedCustomFieldDeleteButton {
+    position: relative;
+    top: 3px;
+  }
+}

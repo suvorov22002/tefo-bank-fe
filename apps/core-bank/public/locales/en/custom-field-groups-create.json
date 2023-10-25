@@ -1,0 +1,37 @@
+{
+  "title": "Custom Fields Groups",
+  "subtitle": "Create Custom Field Group",
+  "form": {
+    "customFieldGroupAppearances": {
+      "collapsed": "Collapsed",
+      "expanded": "Expanded"
+    },
+    "fields": {
+      "label": {
+        "label": "Label"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "tooltip": {
+        "label": "Tooltip"
+      },
+      "appearance": {
+        "label": "Appearance"
+      },
+      "order": {
+        "label": "Index"
+      },
+      "status": {
+        "label": "Status"
+      }
+    },
+    "customFieldGroupStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  }
+}

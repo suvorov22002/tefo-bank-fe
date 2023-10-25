@@ -1,0 +1,19 @@
+.bankProfile {
+  &__content {
+    padding: 24px;
+  }
+
+  &__header {
+    box-shadow: inset 0px -1px 0px #f0f0f0;
+  }
+
+  &__form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  &__formButtonsContainer {
+    display: flex;
+    gap: 8px;
+  }
+}

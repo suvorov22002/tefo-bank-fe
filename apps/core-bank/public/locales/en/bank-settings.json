@@ -1,0 +1,133 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "general": {
+      "label": "General",
+      "subtitle": "General",
+      "form": {
+        "labels": {
+          "defaultLanguageDictionaryValueId": "Default Language",
+          "dateFormatDictionaryValueId": "Date Format",
+          "timeModeDictionaryValueId": "Time Mode",
+          "decimalMarkDictionaryValueId": "Decimal Mark",
+          "thousandSeparatorDictionaryValueId": "Thousand Separator",
+          "defaultPageSizeDictionaryValueId": "Default Page Size"
+        }
+      }
+    },
+    "time": {
+      "label": "Time",
+      "subtitle": "Time",
+      "form": {
+        "labels": {
+          "timeZoneWinterDictionaryValueId": "Time Zone Winter",
+          "timeZoneSummerDictionaryValueId": "Time Zone Summer",
+          "nonBusinessDays": "Non Business Days",
+          "isNonBusinessDayMonday": "Monday",
+          "isNonBusinessDayTuesday": "Tuesday",
+          "isNonBusinessDayWednesday": "Wednesday",
+          "isNonBusinessDayThursday": "Thursday",
+          "isNonBusinessDayFriday": "Friday",
+          "isNonBusinessDaySaturday": "Saturday",
+          "isNonBusinessDaySunday": "Sunday"
+        }
+      }
+    },
+    "closures": {
+      "label": "Closures",
+      "subtitle": "Closures",
+      "form": {
+        "labels": {
+          "cutOffTime": "Cut-Off time",
+          "shouldBlockUsersDuringEOD": "Block users during EOD procedures",
+          "minutesForUserNotificationAboutEODStart": "Minutes for user notification about EOD start",
+          "EOMDaysForAdjustments": "EOM days for adjustments",
+          "EOQDaysForAdjustments": "EOQ days for adjustments",
+          "EOYDaysForAdjustments": "EOY days for adjustments"
+        }
+      }
+    },
+    "accounting": {
+      "label": "Accounting",
+      "subtitle": "Accounting",
+      "form": {
+        "labels": {
+          "accountingMethodDictionaryValueId": "Accounting method",
+          "accountingSystemTypeDictionaryValueId": "Accounting system type",
+          "accountNumberLength": "Account number length",
+          "isUsedIBAN": "IBAN Is Used",
+          "accountNumberAllowedSymbolsDictionaryValueId": "Account number symbols",
+          "accountNumberFreeSegmentDictionaryValueId": "Account number free segment",
+          "IBANLength": "IBAN Length"
+        }
+      }
+    },
+    "access": {
+      "label": "Access",
+      "subtitle": "Access",
+      "form": {
+        "labels": {
+          "shouldEnableTwoFactorAuthentication": "Enable 2-factor authentication",
+          "shouldEnableUserLoginSelfNotification": "Enable user login self notification",
+          "shouldEnableUserLoginSupervisorNotification": "Enable user login supervisor notification",
+          "defaultPassword": "Default Password",
+          "invitationText": "Invitation Text",
+          "invitationValidityDuration": "Invitation validity duration",
+          "minimumPasswordLength": "Minimum password length",
+          "minimumNumberOfNumChars": "Minimum number of numerical characters",
+          "minimumNumberOfSpecialChars": "Minimum number of special characters",
+          "minimumNumberOfUpperCaseChars": "Minimum number of upper case characters",
+          "passwordResetPeriod": "Password reset period",
+          "passwordReuseCycles": "Password reuse cycles",
+          "failedLoginLimit": "Failed login limit",
+          "failedLoginAttemptsTillCoolDown": "Failed login attempts till cooldown",
+          "failedLoginCooldownPeriod": "Failed login cooldown period",
+          "timeoutDuration": "Timeout duration"
+        }
+      }
+    },
+    "customers": {
+      "label": "Customers",
+      "subtitle": "Customers",
+      "form": {
+        "labels": {
+          "internalCodeLength": "Internal code: length",
+          "isUsedUnitCodeInInternalCode": "Internal code: include unit code",
+          "internalCodeAllowedSymbolsDictionaryValueId": "Internal code: allowed symbols",
+          "internalCodeFreeSegmentDictionaryValueId": "Internal code: free segment",
+          "minAgeForOnboarding": "Min age for onboarding",
+          "KYCPeriod": "KYC period, years",
+          "documentTypeForPhotoDictionaryValueId": "Document type for photo",
+          "documentTypeForSignatureDictionaryValueId": "Document type for signature sample",
+          "defaultLegalFormForNaturalPersonDictionaryValueId": "Default legal form for natural person",
+          "defaultEconomicSectorForNaturalPersonDictionaryValueId": "Default economic sector for natural person"
+        }
+      }
+    },
+    "transactions": {
+      "label": "Transactions",
+      "subtitle": "Transactions",
+      "form": {
+        "labels": {
+          "transactionNumberLength": "Transaction number length",
+          "transactionNumberSymbolsDictionaryValueId": "Transaction number symbols",
+          "transactionNumberUniquenessTermDictionaryValueId": "Transaction number uniqueness term"
+        }
+      }
+    },
+    "FXPosition": {
+      "label": "FX Position",
+      "subtitle": "FX Position",
+      "form": {
+        "labels": {
+          "FXRateType": "FX rate type",
+          "FXPosition": "FX position",
+          "FXPositionEquivalent": "FX position equivalent",
+          "FXRevaluationGain": "FX revaluation gain",
+          "FXRevaluationLost": "FX revaluation loss",
+          "FXRevaluationTransactionType": "FX revaluation transaction type"
+        }
+      }
+    }
+  }
+}

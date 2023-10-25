@@ -1,0 +1,33 @@
+{
+  "title": "Structure: Unit",
+  "buttons": {
+    "addNewUnit": "Add New Unit"
+  },
+  "empty": {
+    "noUnits": "You Do Not Have Units Yet.",
+    "noUnitTypes": "You Do Not Have Created Unit Types, Please add Unit Type to Create Unit"
+  },
+  "bankUnitsTable": {
+    "columns": {
+      "titles": {
+        "name": "Name",
+        "code": "Code",
+        "unitType": "Unit Type",
+        "parent": "Parent",
+        "streetLine": "Street Line",
+        "city": "City",
+        "region": "Region",
+        "zipCode": "Zip Code",
+        "phoneNumber": "Phone",
+        "email": "E-mail",
+        "isDataRestricted": "Is Restricted",
+        "status": "Status"
+      }
+    },
+    "unitStatuses": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "idle": "Idle"
+    }
+  }
+}

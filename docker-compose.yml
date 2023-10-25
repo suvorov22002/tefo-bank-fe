@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  superadmin:
+    container_name: superadmin
+    build:
+      context: .
+      dockerfile: ./apps/superadmin/Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
+  core-bank:
+    container_name: core-bank
+    build:
+      context: .
+      dockerfile: ./apps/core-bank/Dockerfile
+    restart: always
+    ports:
+      - 3001:3001

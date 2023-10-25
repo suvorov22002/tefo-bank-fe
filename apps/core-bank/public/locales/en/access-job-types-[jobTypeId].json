@@ -1,0 +1,21 @@
+{
+  "tabs": {
+    "details": {
+      "label": "Details"
+    },
+    "permissions": {
+      "label": "Permissions",
+      "subtitle": "Select Permissions"
+    }
+  },
+  "jobTypePermissionsTable": {
+    "columns": {
+      "titles": {
+        "groupPermission": "Group/Permission"
+      }
+    }
+  },
+  "buttons": {
+    "addPermissions": "Add Permissions"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\" --fix"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "jest-config": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "lodash.merge": "^4.6.2",
+    "query-string": "7.1.3"
+  }
+}

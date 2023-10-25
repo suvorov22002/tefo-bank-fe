@@ -1,0 +1,8 @@
+node_modules
+.git
+.next
+.turbo
+out
+build
+Dockerfile
+README.md

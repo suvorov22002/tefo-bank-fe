@@ -1,0 +1,15 @@
+{
+  "title": "Dictionaries: {{name}}",
+  "subtitle": "Add Value",
+  "createDictionaryValueForm": {
+    "labels": {
+      "code": "Value Code",
+      "name": "Value Name",
+      "status": "Value Status"
+    },
+    "statusOptions": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  }
+}

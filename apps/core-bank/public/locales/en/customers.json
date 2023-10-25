@@ -1,0 +1,39 @@
+{
+  "title": "Customers",
+  "subtitle": "View Customers List",
+  "createCustomerTitle": "Create Customer Profile",
+  "buttons": {
+    "addNewCustomer": "Add New Customer"
+  },
+  "empty": {
+    "noCustomers": "You Do Not Have Customers Yet."
+  },
+  "customersTable": {
+    "columns": {
+      "titles": {
+        "code": "Code",
+        "type": "Type",
+        "shortName": "Name",
+        "residency": "Residency",
+        "unitName": "Unit",
+        "relationshipManagerName": "Relationship Manager",
+        "status": "Status",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "updatedBy": "Updated By"
+      }
+    },
+    "customerStatuses": {
+      "prospect": "Prospect",
+      "pendingAuthorization": "Pending Authorization",
+      "inactive": "Inactive",
+      "active": "Active",
+      "rejected": "Rejected",
+      "closed": "Closed"
+    },
+    "residency": {
+      "true": "Yes",
+      "false": "No"
+    }
+  }
+}

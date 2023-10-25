@@ -1,0 +1,48 @@
+{
+  "buttons": {
+    "create": "Create",
+    "continue": "Continue",
+    "retry": "Retry",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "done": "Done"
+  },
+  "forms": {
+    "labels": {
+      "bank": {
+        "shortName": "Short Name",
+        "longName": "Long Name",
+        "street": "Street Line",
+        "region": " Region",
+        "city": "City",
+        "zipCode": "Zip Code",
+        "country": "Country",
+        "phoneNumber": "Phone Number",
+        "email": "Email",
+        "codeGroup": "Code Group",
+        "swiftCode": "Swift Code"
+      }
+    },
+    "validations": {
+      "required": "Required",
+      "email": "Email is not valid",
+      "minLength": "Field must contain at least {{minLength}} characters",
+      "maxLength": "Length exceeds expected one ({{maxLength}} symbols)",
+      "alphaNumeric": "Wrong format",
+      "alphaNumericApostropheHyphenSpace": "Wrong format",
+      "alphaNumericApostropheHyphenSpaceDotCommaSlash": "Wrong format",
+      "alphaNumericHyphenSpaceDotSlash": "Wrong format",
+      "alphaNumericHyphenDotUnderscore": "Wrong format",
+      "alphaNumericHyphenDotUnderscoreHash": "Wrong format",
+      "isPhoneNumberCode": "Wrong format",
+      "numeric": "Wrong format",
+      "upperCasedAlphaNumeric": "Wrong format"
+    }
+  },
+  "notifications": {
+    "inProgress": "In Progress",
+    "success": "Success",
+    "error": "Error"
+  }
+}

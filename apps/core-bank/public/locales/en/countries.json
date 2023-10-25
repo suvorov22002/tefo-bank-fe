@@ -1,0 +1,28 @@
+{
+  "title": "Countries",
+  "subtitle": "View Countries",
+  "createCountryTitle": "Create Country",
+  "buttons": {
+    "addNewCountry": "Add New Country"
+  },
+  "empty": {
+    "noCountries": "You Do Not Have Countries Yet."
+  },
+  "countriesTable": {
+    "columns": {
+      "titles": {
+        "shortName": "Short Name",
+        "name": "Name",
+        "ISOAlpha3Code": "Alpha-3 Code",
+        "ISOAlpha2Code": "Alpha-2 Code",
+        "ISONumericCode": "Numeric Code",
+        "phoneCode": "Phone Code",
+        "status": "Status"
+      }
+    },
+    "countryStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  }
+}

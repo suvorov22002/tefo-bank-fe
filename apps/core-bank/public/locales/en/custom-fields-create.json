@@ -1,0 +1,98 @@
+{
+  "title": "Custom Fields",
+  "subtitle": "Create Custom Field",
+  "form": {
+    "fields": {
+      "code": {
+        "label": "Code"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "referenceEntity": {
+        "label": "Reference Entity"
+      },
+      "entityLevel": {
+        "label": "Entity Level"
+      },
+      "fieldType": {
+        "label": "Data type"
+      },
+      "group": {
+        "label": "Group"
+      },
+      "isIndependent": {
+        "label": "Field Is Independent"
+      },
+      "order": {
+        "label": "Index"
+      },
+      "label": {
+        "label": "Label"
+      },
+      "placeholder": {
+        "label": "Placeholder"
+      },
+      "helpText": {
+        "label": "Help Text"
+      },
+      "tooltip": {
+        "label": "Tooltip"
+      },
+      "status": {
+        "label": "Status"
+      },
+      "defaultValue": {
+        "label": "Default Value"
+      },
+      "decimals": {
+        "label": "Decimals"
+      },
+      "dictionary": {
+        "label": "Dictionary"
+      }
+    },
+    "customFieldStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "dataTypeBooleanDefaultValueOptionsLabels": {
+      "true": "True",
+      "false": "False"
+    },
+    "dataTypes": {
+      "boolean": "Boolean",
+      "integer": "Integer",
+      "integerPercent": "Integer Percent",
+      "decimal": "Decimal",
+      "decimalPercent": "Decimal Percent",
+      "date": "Date",
+      "dateTime": "Date Time",
+      "string": "String",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "list": "List",
+      "dictionary": "Dictionary",
+      "reference": "Reference"
+    }
+  },
+  "buttons": {
+    "createCustomField": "Create Custom Field",
+    "listFieldAddNewItemButtonText": "Add New Item"
+  },
+
+  "entities": {
+    "account": "Account",
+    "bank": "Bank",
+    "client": "Client",
+    "contract": "Contract",
+    "product": "Product",
+    "transaction": "Transaction",
+    "unit": "Unit",
+    "user": "User",
+    "country": "Country"
+  }
+}

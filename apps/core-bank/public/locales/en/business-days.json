@@ -1,0 +1,12 @@
+{
+  "buttons": {
+    "setInitialBusinessDay": "Set First Business Day"
+  },
+  "setInitialBusinessDayModal": {
+    "title": "Set First Business Day"
+  },
+  "popconfirms": {
+    "canBeSetOnceTitle": "Business Day Could Not Be Changed Once Set",
+    "canBeSetOnceDescription": "Are You Sure?"
+  }
+}

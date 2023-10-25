@@ -1,0 +1,15 @@
+.bankSettingsAccounting {
+  &__contentCard {
+    margin: 24px;
+  }
+
+  &__form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  &__controls {
+    display: flex;
+    gap: 8px;
+  }
+}

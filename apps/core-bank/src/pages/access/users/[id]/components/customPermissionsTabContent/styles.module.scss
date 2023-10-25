@@ -1,0 +1,18 @@
+.customPermissions {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+  &__contentCard {
+    margin: 24px;
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}

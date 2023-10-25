@@ -1,0 +1,109 @@
+{
+  "title": "Custom Fields",
+  "entities": {
+    "account": "Account",
+    "bank": "Bank",
+    "client": "Client",
+    "contract": "Contract",
+    "product": "Product",
+    "transaction": "Transaction",
+    "unit": "Unit",
+    "user": "User",
+    "country": "Country"
+  },
+  "tabs": {
+    "general": {
+      "label": "General",
+      "form": {
+        "fields": {
+          "createdAt": {
+            "label": "Created At"
+          },
+          "updatedAt": {
+            "label": "Updated At"
+          },
+          "updatedBy": {
+            "label": "Updated By"
+          },
+          "approvedAt": {
+            "label": "Approved At"
+          },
+          "approvedBy": {
+            "label": "Approved By"
+          }
+        }
+      },
+      "buttons": {
+        "addValidation": "Add Validation"
+      }
+    },
+    "validation": {
+      "label": "Validation",
+      "subtitle": "View Validations",
+      "buttons": {
+        "addValidation": "Add Validation",
+        "modalOkButton": "Ok"
+      },
+      "table": {
+        "columns": {
+          "titles": {
+            "rule": "Rule",
+            "index": "Index",
+            "status": "Status"
+          }
+        }
+      },
+      "validationRuleStatuses": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "validationRuleTypes": {
+        "required": "Mandatory Field Value",
+        "min": "Min Value",
+        "max": "Max Value",
+        "minLength": "Min String Length",
+        "maxLength": "Max String Length",
+        "allowedCharacters": "Allowed Characters",
+        "pattern": "Pattern",
+        "email": "E-mail",
+        "phoneNumber": "Phone Number",
+        "minFutureValue": "Min Future Value",
+        "maxFutureValue": "Max Future Value",
+        "minPastValue": "Min Past Value",
+        "maxPastValue": "Max Past Value",
+        "lessThanDate": "Less Than Date",
+        "moreThanDate": "More Than Date"
+      },
+      "emptyDescription": "You Do Not Have Validations Yet",
+      "modals": {
+        "create": {
+          "title": "Create Validation"
+        },
+        "edit": {
+          "title": "Edit Validation"
+        }
+      },
+      "forms": {
+        "labels": {
+          "rule": "Rule",
+          "index": "Index",
+          "status": "Status",
+          "number": "Number",
+          "length": "Length",
+          "expression": "Expression",
+          "pattern": "Pattern",
+          "unit": "Unit",
+          "term": "Term",
+          "date": "Date"
+        }
+      },
+      "periodTerm": {
+        "day": "Day",
+        "week": "Week",
+        "month": "Month",
+        "quarter": "Quarter",
+        "year": "Year"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "Create Bank Profile"
+  },
+  "steps": {
+    "name": {
+      "title": "Bank Name",
+      "description": "Provide a bank name"
+    },
+    "address": {
+      "title": "Bank Address",
+      "description": "Provide a bank address"
+    },
+    "contacts": {
+      "title": "Bank Contacts",
+      "description": "Provide a bank contact information"
+    },
+    "swift": {
+      "title": "Bank SWIFT",
+      "description": "Provide Group and SWIFT code"
+    }
+  },
+  "stepsProgress": "Step {{current}} of {{of}}",
+  "results": {
+    "errorView": {
+      "title": "Failed to Create Bank Profile"
+    },
+    "successView": {
+      "title": "Successfully Created Bank Profile",
+      "goToBankButton": "Go to the Bank Profile"
+    }
+  }
+}

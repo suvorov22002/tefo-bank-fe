@@ -1,0 +1,32 @@
+.createCustomFieldGroup {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  height: 100%;
+
+  &__header {
+    box-shadow: inset 0px -1px 0px #f0f0f0;
+  }
+
+  &__contentCard {
+    margin: 24px;
+  }
+
+  &__entitySelectWrapper {
+    min-width: 130px;
+
+    :first-child {
+      margin: 0;
+    }
+  }
+
+  &__form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  &__controls {
+    display: flex;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,13 @@
+.userDetails {
+  margin: 24px;
+
+  &__form {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  &__controls {
+    display: flex;
+    gap: 8px;
+  }
+}

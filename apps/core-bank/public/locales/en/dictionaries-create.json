@@ -1,0 +1,18 @@
+{
+  "title": "Dictionaries",
+  "subtitle": "Create Dictionary",
+  "buttons": {
+    "createDataDictionary": "Create Data Dictionary"
+  },
+  "createDictionaryForm": {
+    "labels": {
+      "code": "Code",
+      "name": "Dictionary Name",
+      "status": "Dictionary Status"
+    },
+    "statusOptions": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  }
+}

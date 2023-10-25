@@ -1,0 +1,42 @@
+{
+  "title": "Holiday Calendar",
+  "subtitle": "View",
+  "createDayTitle": "Create Day",
+  "filterByDayType": {
+    "labelFilter": "By Day Type:"
+  },
+  "buttons": {
+    "addDate": "Add Date"
+  },
+  "empty": {
+    "noHolidayCalendars": "You Do Not Have Records Yet."
+  },
+  "errorMessages": {
+    "sameBusinessDay": "Creation of records in calendar dated by current business day is not allowed."
+  },
+  "holidayCalendarTable": {
+    "columns": {
+      "titles": {
+        "id": "Id",
+        "date": "Date",
+        "name": "Name",
+        "type": "Type",
+        "recurring": "Recurring",
+        "status": "Status"
+      }
+    },
+    "holidayCalendarStatus": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "holidayCalendarDateType": {
+      "businessDay": "Business day",
+      "nonBusinessDay": "Non-business day",
+      "all": "All"
+    },
+    "holidayCalendarRecurringStatus": {
+      "Yes": "Yes",
+      "No": "No"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Currencies",
+  "subtitle": "Create Currency",
+  "currencyForm": {
+    "labels": {
+      "name": "Name",
+      "alphabeticCode": "Alphabetic Code",
+      "numericCode": "Numeric Code",
+      "symbol": "Symbol",
+      "numberOfDecimals": "Number Of Decimals",
+      "status": "Status",
+      "usageInBank": "Usage In Bank"
+    },
+
+    "statusOptions": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "currencyStatuses": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "currencyUsageInBank": {
+    "cash": "Cash Operations",
+    "nonCash": "Non-cash Operations",
+    "reference": "Reference Currency",
+    "legalTender": "Legal Tender"
+  },
+
+  "popconfirms": {
+    "referenceCanBeSetOnceTitle": "Reference Currency Could Not Be Changed Once Set.",
+    "referenceCanBeSetOnceDescription": "Are You Sure?"
+  }
+}

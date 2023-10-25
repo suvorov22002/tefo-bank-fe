@@ -1,0 +1,103 @@
+{
+  "buttons": {
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "save": "Save",
+    "done": "Done",
+    "create": "Create",
+    "saving": "Saving",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK"
+  },
+  "navigation": {
+    "links": {
+      "administration": "Administration",
+      "profile": "Profile",
+      "settings": "Settings",
+      "structure": "Structure",
+      "unit": "Unit",
+      "unitTypes": "Unit Types",
+      "customFields": "Custom Fields",
+      "dataDictionaries": "Data Dictionaries",
+      "currencies": "Currencies",
+      "eod": "EOD",
+      "access": "Access",
+      "users": "Users",
+      "jobTypes": "Job Types",
+      "countries": "Countries",
+      "customFieldGroups": "Custom Field Groups",
+      "customers": "Customers",
+      "holidayCalendar": "Calendar"
+    }
+  },
+  "notifications": {
+    "unsavedChanges": "You have unsaved changes that will not be kept. Are you sure you want to leave without saving?",
+    "inProgress": "In Progress",
+    "success": "Success",
+    "error": "Error"
+  },
+  "modals": {
+    "deleteConfirmationTitle": "Selected record will be deleted",
+    "deleteConfirmationDescription": "Are You Sure?"
+  },
+  "tables": {
+    "columns": {
+      "titles": {
+        "actions": "Actions"
+      }
+    },
+    "values": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "pagination": {
+      "totalItems": "{{from}}-{{to}} of {{total}} items"
+    },
+    "rowActions": {
+      "edit": "Edit",
+      "approve": "Approve",
+      "inactivate": "Inactivate",
+      "delete": "Delete",
+      "validate": "Validate",
+      "authorise": "Authorise",
+      "reject": "Reject"
+    }
+  },
+  "forms": {
+    "validations": {
+      "notValid": "Value is not valid",
+      "required": "Mandatory field value is missing",
+      "alphabetic": "Only symbols A-Z|a-z are allowed",
+      "upperCasedAlphabetic": "Only symbols A-Z are allowed",
+      "numeric": "Only symbols 0-9 are allowed",
+      "min": "Value should be greater than {{min}}",
+      "max": "Value should be less than {{max}}",
+      "minLength": "Value should be at least {{minLength}} symbols long",
+      "maxLength": "Value should be no more than {{maxLength}} symbols long"
+    },
+    "helpMessages": {
+      "canBeSetOnce": "Once set, could not be changed"
+    }
+  },
+  "popconfirms": {
+    "canBeSetOnceTitle": "Some Fields Could Not Be Changed Once Set",
+    "canBeSetOnceDescription": "Are You Sure?"
+  },
+  "dynamicFields": {
+    "addCustomFields": {
+      "modal": {
+        "title": "Add Custom Field"
+      },
+      "fields": {
+        "fieldToAdd": {
+          "label": "Select Custom Field To Add"
+        }
+      },
+      "buttons": {
+        "addCustomFieldButton": "Add Custom Field"
+      }
+    }
+  }
+}

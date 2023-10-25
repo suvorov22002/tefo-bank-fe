@@ -1,0 +1,26 @@
+{
+  "title": "Custom Fields Groups",
+  "subtitle": "View Custom Fields Groups",
+  "buttons": {
+    "addGroup": "Add Custom Field Group"
+  },
+  "customFieldGroupsTable": {
+    "customFieldGroupStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "columns": {
+      "titles": {
+        "name": "Name",
+        "index": "Index",
+        "status": "Status"
+      }
+    }
+  },
+  "emptyNoSelectedEntity": {
+    "description": "Select Entity First"
+  },
+  "emptyNoCustomFieldGroups": {
+    "description": "No Data, Add Custom Field Group"
+  }
+}

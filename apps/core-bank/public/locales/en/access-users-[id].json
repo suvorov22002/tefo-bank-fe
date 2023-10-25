@@ -1,0 +1,90 @@
+{
+  "title": "User Profile",
+  "pageControls": {
+    "approve": "Approve",
+    "inactivate": "Inactivate",
+    "resetPassword": "Reset Password"
+  },
+  "tabs": {
+    "details": {
+      "label": "Details",
+      "subtitle": "View User Details"
+    },
+    "jobTypes": {
+      "label": "Job Types",
+      "subtitle": "View Job Types",
+      "modals": {
+        "create": {
+          "title": "Select Job Type"
+        }
+      },
+      "table": {
+        "columns": {
+          "titles": {
+            "jobTypeName": "Job Type",
+            "unit": "Unit",
+            "includeSubordinatedUnits": "Subordinated Units",
+            "validFrom": "Valid From",
+            "validTo": "Valid To"
+          }
+        }
+      },
+      "forms": {
+        "labels": {
+          "unitId": "Select Unit",
+          "includeSubordinatedUnits": "Subordinated Units",
+          "includeSubordinatedUnitsText": "Included",
+          "jobTypeId": "Job Type",
+          "validFrom": "Valid From Date",
+          "validTo": "Valid To Date"
+        }
+      }
+    },
+    "customPermissions": {
+      "label": "Custom Permissions",
+      "subtitle": "View Custom Permissions",
+      "modals": {
+        "create": {
+          "title": "Select Custom Permission"
+        }
+      },
+      "table": {
+        "columns": {
+          "titles": {
+            "group": "Group",
+            "permission": "Permission",
+            "unit": "Unit",
+            "includeSubordinatedUnits": "Subordinated Units",
+            "validFrom": "Valid From",
+            "validTo": "Valid To"
+          }
+        }
+      },
+      "forms": {
+        "labels": {
+          "unitId": "Select Unit",
+          "includeSubordinatedUnits": "Subordinated Units",
+          "includeSubordinatedUnitsText": "Included",
+          "permissionId": "Permission",
+          "validFrom": "Valid From Date",
+          "validTo": "Valid To Date"
+        }
+      }
+    }
+  },
+  "empty": {
+    "noJobTypes": "You Do Not Have Job Types Yet.",
+    "noCustomPermissions": "You Do Not Have Custom Permissions Yet."
+  },
+  "buttons": {
+    "addJobType": "Add Job Type",
+    "addCustomPermission": "Add Custom Permission",
+    "modalOkText": "OK"
+  },
+  "modals": {
+    "resetPassword": {
+      "title": "Reset Password",
+      "otp": "OTP"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Access: Job Types",
+  "jobTypesTitle": "View Job Types",
+  "buttons": {
+    "addNewJobType": "Add New Job Type",
+    "createJobType": "Create Job Type"
+  },
+  "empty": {
+    "noJobTypes": "You Do Not Have Job Types Yet."
+  },
+  "jobTypesTable": {
+    "columns": {
+      "titles": {
+        "name": "Job Type",
+        "status": "Status"
+      }
+    },
+    "jobTypeStatuses": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  }
+}

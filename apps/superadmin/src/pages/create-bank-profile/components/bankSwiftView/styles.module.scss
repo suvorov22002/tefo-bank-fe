@@ -1,0 +1,18 @@
+.bankView {
+  &__form {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  &__stepText {
+    display: block;
+    margin-top: 47px;
+    text-align: center;
+  }
+
+  &__buttonsContainer {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+}
